@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 import "./App.css"; // Include custom styles
 
-const socket = io("http://localhost:5000/todo", {
+const socket = io("https://socket-io-test-service.vercel.app/todo", {
   transports: ["websocket"], // Use only WebSocket transport
 });
 
