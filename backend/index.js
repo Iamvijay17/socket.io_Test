@@ -2,7 +2,7 @@
 import express from "express";
 import http from "http";
 import { Server } from "socket.io";
-import { generateId } from "./utils";
+import { generateId } from "./utils.js";
 
 const port = process.env.PORT || 5000;
 
