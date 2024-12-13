@@ -101,7 +101,7 @@ todoListNameSpace.on("connection", (socket) => {
 
 // Simple endpoint to test the server
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello I'm socket server!");
 });
 
 // Start the server
