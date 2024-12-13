@@ -1,4 +1,4 @@
-import { generateId } from "./utils.js";
+import { generateId } from "./utils";
 import express from "express";
 import http from "http";
 import { Server } from "socket.io";
